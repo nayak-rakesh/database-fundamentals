@@ -28,7 +28,7 @@ CREATE TABLE person (
 * The above command would create a table with three columns i.e `id`, `name` and `age`. We can also see that each of these columns are of different data types.
 * `id ` column is of type `SERIAL` which would start from 1 and increment automatically as we start adding rows to the table. `TEXT`(name column) data type is used to store textual(string) data, in this case name of a person. There are other types exist to store string types too. And lastly `INT`(age column) to store integers in this case age of a person.
 * We can delete a table by the command `DROP TABLE table_name;`.
-* Once the table is created we would be able to insert data to the table.
+* Once the table is created we would be able to insert data to the table, update an existing data and also delete an existing data.
 ```sql
 INSERT INTO 
     person (name, age)
