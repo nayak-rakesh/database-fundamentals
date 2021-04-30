@@ -112,8 +112,8 @@ ORDER BY
  customer_id | total_quantity 
 -------------+----------------
         1    |              3
-        4 	 |              3
-        5 	 |              5
+        4    |              3
+        5    |              5
 ```
 * In the above query we can see that after we group all the rows with same `customer_id` and total order quantity we filtered for the rows which has order quantity greater than 2.
 #### Examples
@@ -137,7 +137,7 @@ ORDER BY
 ```
  customer_id |   name   | address | total_quantity 
 -------------+----------+---------+----------------
-        1 	 | Jack     | London  |              3
-        4 	 | Samantha | Boston  |              3
+        1    | Jack     | London  |              3
+        4    | Samantha | Boston  |              3
         5    | Nick     | Miami   |              5
 ```
